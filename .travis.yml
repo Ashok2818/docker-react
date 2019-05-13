@@ -8,5 +8,5 @@ before_install:
 
 
 script:
-  - docker run -it docker-react npm run test -- --coverage
+  - docker run docker-react npm run test -- --coverage
 
