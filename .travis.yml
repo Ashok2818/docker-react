@@ -8,7 +8,7 @@ before_install:
 
 
 script:
-  --env: jsdom
+  env: jsdom
   - docker run -it docker-react npm run test -- --coverage
 
   deploy:
