@@ -8,10 +8,10 @@ before_install:
 
 
 script:
-  - test: "react-scripts test --env=jsdom --watch"
+  --env: jsdom
   - docker run -it docker-react npm run test -- --coverage
 
-deploy:
+  deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker-react-app"
