@@ -8,6 +8,7 @@ before_install:
 
 
 script:
+  - test: "react-scripts test --env=jsdom --watch"
   - docker run -it docker-react npm run test -- --coverage
 
 deploy:
