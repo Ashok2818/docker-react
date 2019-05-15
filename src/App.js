@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi, welcome to docker world.</p>
+          Hi, welcome to docker world.docker is used for containerzation</p>
         <a
           className="App-link"
           href="https://reactjs.org"
